@@ -111,3 +111,4 @@ C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.IsSubscribedToCustomer.resources
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.ApplyDataAnitationsToCustonerName.resources
