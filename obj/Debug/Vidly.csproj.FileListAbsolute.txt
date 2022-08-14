@@ -112,3 +112,6 @@ C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.IsSubscribedToCustomer.r
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.ApplyDataAnitationsToCustonerName.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.UpdateNameInMembershipTypes.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddBirthDateToCustomer.resources
