@@ -106,3 +106,8 @@ C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.dll
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.pdb
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.IsSubscribedToCustomer.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
