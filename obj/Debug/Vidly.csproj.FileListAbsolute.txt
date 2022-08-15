@@ -115,3 +115,6 @@ C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.ApplyDataAnitationsToCus
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.UpdateNameInMembershipTypes.resources
 C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddBirthDateToCustomer.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddReleaseDateDateAddedNumberInStockToMovie.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.AddGenre.resources
+C:\xampp\htdocs\New\C#\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources

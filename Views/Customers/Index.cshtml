@@ -4,14 +4,17 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Customers</h2>
+<div class="d-flex justify-content-between align-items-baseline">
+    <h2>Customers</h2>
+    @Html.ActionLink("Add New", "Create", "Customers", null, new { @class = "btn btn-primary " })
+</div>
 @if (!Model.Any())
 {
     <p>We don't have any customers yet.</p>
 }
 else
 {
-    <table class="table table-bordered table-hover">
+    <table class="table table-bordered table-hover mt-3">
         <thead>
             <tr>
                 <th>Customer</th>
