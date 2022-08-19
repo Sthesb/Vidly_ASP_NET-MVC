@@ -29,6 +29,8 @@ namespace Vidly.Controllers
             return View(customers);
         }
 
+
+        // customer details
         public ActionResult Details(int id)
         {
             var customer = _context.Customers.Include(c => c.MembershipType).SingleOrDefault(c => c.Id == id);
@@ -52,16 +54,8 @@ namespace Vidly.Controllers
             return View("CustomerForm", viewModel);
         }
         
-        // store Customer
-        [HttpPost]
-        public ActionResult Store(Customer customer)
-        {
-            _context.Customers.Add(customer);
-            _context.SaveChanges();
 
-            return RedirectToAction("Index", "Customers");
-        }
-
+        // edit
         public ActionResult Edit (int id)
         {
             var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
@@ -75,6 +69,28 @@ namespace Vidly.Controllers
             };
 
             return View("CustomerForm", viewModel);
+        }
+
+
+        // store/update Customer
+        [HttpPost]
+        public ActionResult Save(Customer customer)
+        {
+            if(customer.Id == 0)
+            {
+                _context.Customers.Add(customer); // new customer
+            }else
+            {
+                var customerInDb =  _context.Customers.Single(c => c.Id == customer.Id);  // edit customer
+                customerInDb.Name = customer.Name;
+                customerInDb.BirthDate = customer.BirthDate;
+                customerInDb.IsSubscribedToNewsLetter = customer.IsSubscribedToNewsLetter;
+                customerInDb.MembershipTypeId = customer.MembershipTypeId;
+            }
+            
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Customers");
         }
     }
 }
